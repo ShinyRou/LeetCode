@@ -28,7 +28,7 @@ public class LengthOfLongestSubstring {
         for(int i=0;i<=strArray.length-1;i++){
             strSet.add(strArray[i]);
             if(sum==strSet.size()){
-                i= i - strSet.size()+1;
+                i= i - strSet.size();
                 strSet.clear();
                 sum=strSet.size();
                 continue;
