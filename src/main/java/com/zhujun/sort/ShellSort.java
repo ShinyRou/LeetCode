@@ -4,6 +4,15 @@ package com.zhujun.sort;
  * className: ShellSort
  * create by: zhujun
  * description: 希尔排序
+ *
+ * 思想：基于插入排序的一种优化，对与数组本身就部分有序的效率比较高。
+ * gap = gap*3 + 1    gap<array.length
+ * 从最大值开始
+ * 使得 数组 没间隔 gap个是有序的
+ * gap最后=1 进行一次扫描进行插入排序。
+ *
+ * 希尔排序的性能取决于h的递增序列，上面代码中所用的递增序列并不是最优秀的，但最坏情况下的运行时间仍少于平方级别，算法的时间复杂度为O（n^(2/3)）。
+ *
  * create time: 2020/3/23 10:55
  */
 public class ShellSort  extends AbstractSort{

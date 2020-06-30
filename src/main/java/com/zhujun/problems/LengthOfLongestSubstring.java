@@ -17,11 +17,19 @@ import java.util.Set;
  */
 
 public class LengthOfLongestSubstring {
+    /**
+     * @Description
+     * 思路1
+     * 1.字符串转 字符数组
+     * 2.通过set集合来 进行判断是否重复，重复的话 记录当前子串长度
+     * 3.sum变量 记录最大的长度 返回sum
+     * @author zhujun
+     * @date 2020/5/25 10:40
+     * @param s
+     * @return int
+     */
     static int  solutions(String s){
-
-
         char[] strArray = s.toCharArray();
-
         int maxLength = 0;//计数器
         Set<Character> strSet = new HashSet<>();
         int sum = strSet.size();
@@ -38,12 +46,11 @@ public class LengthOfLongestSubstring {
             }
             sum=strSet.size();
         }
-
         return maxLength;
     }
 
 
     public static void main(String[] args) {
-        System.out.println(solutions("aab"));
+        System.out.println(solutions("abcabcbb"));
     }
 }
