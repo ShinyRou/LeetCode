@@ -71,6 +71,9 @@ public class Question11 {
 
     public static void main(String[] args) {
         System.out.println(NumberOf1(-1));
+
+
+        ljlijlij
     }
 
 
