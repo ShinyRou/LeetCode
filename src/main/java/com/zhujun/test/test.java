@@ -33,6 +33,7 @@ public class test {
         }
         countDownLatch.await();
         System.out.println(test.inc);
+        System.out.println("dev commit demo");
     }
 
     public static class Test {
