@@ -69,12 +69,18 @@ public class Question11 {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println(NumberOf1(-1));
-
-
-        ljlijlij
+    public static int NumberOf2(int n) {
+        int sum = 0;
+        for(int i=0;i<32;i++){
+            if((n&1)==1){
+                sum++;
+            }
+            n = n>>1;
+        }
+        return sum;
     }
 
-
+    public static void main(String[] args) {
+        System.out.println(NumberOf2(-1));
+    }
 }

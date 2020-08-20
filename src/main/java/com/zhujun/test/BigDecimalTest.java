@@ -10,7 +10,7 @@ import java.math.BigDecimal;
  *
  * @author <a href="mailto: "></a> zhujun
  * @version 1.0
- * Copyright (c) 2020 宏信建发
+ * Copyright (c) 2020
  **/
 public class BigDecimalTest {
     public static void main(String[] args) {
