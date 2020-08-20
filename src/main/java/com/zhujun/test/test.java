@@ -41,6 +41,8 @@ public class test {
         public void increase() {
             inc++;
         }
+
+        public void matseremo(){};
     }
 
 
