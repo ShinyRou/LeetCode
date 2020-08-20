@@ -8,7 +8,7 @@ package com.zhujun.offer;
  *
  * @author <a href="mailto: "></a> zhujun
  * @version 1.0
- * Copyright (c) 2020 宏信建发
+ * Copyright (c) 2020
  **/
 public class ListNode {
      int val;
